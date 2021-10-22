@@ -19,9 +19,9 @@ Array.from(colorLinks).forEach(function (link) {
 });
 
 //eventlistener voor mouseover
-btn.addEventListener("mouseover", function (e) {
-  toggleSidebar();
-});
+// btn.addEventListener("mouseover", function (e) {
+//   toggleSidebar();
+// });
 
 // als je mouseout ook gebruikt, dan krijg je het menu toch nooit te zien???????
 // btn.addEventListener("mouseout", function (e) {
@@ -29,10 +29,10 @@ btn.addEventListener("mouseover", function (e) {
 // }
 // );
 
-// initiele klik eventlistener
-// btn.addEventListener("click", function (e) {
-//   toggleSidebar();
-// });
+initiele klik eventlistener
+btn.addEventListener("click", function (e) {
+  toggleSidebar();
+});
 
 //het togglen van het menu
 function toggleSidebar() {
